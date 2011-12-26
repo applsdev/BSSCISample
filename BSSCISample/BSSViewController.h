@@ -10,4 +10,6 @@
 
 @interface BSSViewController : UIViewController
 
+- (IBAction)doSomethingAwesome:(id)sender;
+
 @end

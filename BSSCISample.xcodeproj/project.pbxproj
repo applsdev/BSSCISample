@@ -22,13 +22,13 @@
 		5BA0B9A614A75A230066DF6B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5BA0B9A814A75A230066DF6B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5BA0B9AA14A75A230066DF6B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		5BA0B9AE14A75A230066DF6B /* BSSCISample-Info.plist */ = {isa = PBXFileReference; path = "BSSCISample-Info.plist"; sourceTree = "<group>"; };
+		5BA0B9AE14A75A230066DF6B /* BSSCISample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BSSCISample-Info.plist"; sourceTree = "<group>"; };
 		5BA0B9B014A75A230066DF6B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5BA0B9B214A75A230066DF6B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5BA0B9B414A75A230066DF6B /* BSSCISample-Prefix.pch */ = {isa = PBXFileReference; path = "BSSCISample-Prefix.pch"; sourceTree = "<group>"; };
-		5BA0B9B514A75A230066DF6B /* BSSAppDelegate.h */ = {isa = PBXFileReference; path = BSSAppDelegate.h; sourceTree = "<group>"; };
+		5BA0B9B414A75A230066DF6B /* BSSCISample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BSSCISample-Prefix.pch"; sourceTree = "<group>"; };
+		5BA0B9B514A75A230066DF6B /* BSSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSSAppDelegate.h; sourceTree = "<group>"; };
 		5BA0B9B614A75A230066DF6B /* BSSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSSAppDelegate.m; sourceTree = "<group>"; };
-		5BA0B9B814A75A230066DF6B /* BSSViewController.h */ = {isa = PBXFileReference; path = BSSViewController.h; sourceTree = "<group>"; };
+		5BA0B9B814A75A230066DF6B /* BSSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSSViewController.h; sourceTree = "<group>"; };
 		5BA0B9B914A75A230066DF6B /* BSSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSSViewController.m; sourceTree = "<group>"; };
 		5BA0B9BC14A75A230066DF6B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BSSViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -101,9 +101,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5BA0B9A114A75A230066DF6B /* BSSCISample */ = {
+		5BA0B9A114A75A230066DF6B /* CISample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5BA0B9C014A75A230066DF6B /* Build configuration list for PBXNativeTarget "BSSCISample" */;
+			buildConfigurationList = 5BA0B9C014A75A230066DF6B /* Build configuration list for PBXNativeTarget "CISample" */;
 			buildPhases = (
 				5BA0B99E14A75A230066DF6B /* Sources */,
 				5BA0B99F14A75A230066DF6B /* Frameworks */,
@@ -113,7 +113,7 @@
 			);
 			dependencies = (
 			);
-			name = BSSCISample;
+			name = CISample;
 			productName = BSSCISample;
 			productReference = 5BA0B9A214A75A230066DF6B /* BSSCISample.app */;
 			productType = "com.apple.product-type.application";
@@ -139,7 +139,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5BA0B9A114A75A230066DF6B /* BSSCISample */,
+				5BA0B9A114A75A230066DF6B /* CISample */,
 			);
 		};
 /* End PBXProject section */
@@ -256,6 +256,39 @@
 			};
 			name = Release;
 		};
+		5BA0B9C314A75C050066DF6B /* Ad-Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Ad-Hoc";
+		};
+		5BA0B9C414A75C050066DF6B /* Ad-Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Martin Reichart";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BSSCISample/BSSCISample-Prefix.pch";
+				INFOPLIST_FILE = "BSSCISample/BSSCISample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "66AF41B4-1728-4B3C-8F8A-7F41450D81FD";
+				WRAPPER_EXTENSION = app;
+			};
+			name = "Ad-Hoc";
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -264,15 +297,17 @@
 			buildConfigurations = (
 				5BA0B9BE14A75A230066DF6B /* Debug */,
 				5BA0B9BF14A75A230066DF6B /* Release */,
+				5BA0B9C314A75C050066DF6B /* Ad-Hoc */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5BA0B9C014A75A230066DF6B /* Build configuration list for PBXNativeTarget "BSSCISample" */ = {
+		5BA0B9C014A75A230066DF6B /* Build configuration list for PBXNativeTarget "CISample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5BA0B9C114A75A230066DF6B /* Debug */,
 				5BA0B9C214A75A230066DF6B /* Release */,
+				5BA0B9C414A75C050066DF6B /* Ad-Hoc */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

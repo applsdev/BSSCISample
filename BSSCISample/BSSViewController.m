@@ -57,4 +57,8 @@
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
+- (IBAction)doSomethingAwesome:(id)sender {
+    [[[UIAlertView alloc] initWithTitle: @"Congratulations!" message: @"Ok, now get back to work!" delegate: nil cancelButtonTitle: @"OK" otherButtonTitles: nil] show];
+}
+
 @end
