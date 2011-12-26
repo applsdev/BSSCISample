@@ -18,7 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5BA0B9A214A75A230066DF6B /* BSSCISample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BSSCISample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BA0B9A214A75A230066DF6B /* CISample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CISample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BA0B9A614A75A230066DF6B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5BA0B9A814A75A230066DF6B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5BA0B9AA14A75A230066DF6B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -59,7 +59,7 @@
 		5BA0B9A314A75A230066DF6B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5BA0B9A214A75A230066DF6B /* BSSCISample.app */,
+				5BA0B9A214A75A230066DF6B /* CISample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -115,7 +115,7 @@
 			);
 			name = CISample;
 			productName = BSSCISample;
-			productReference = 5BA0B9A214A75A230066DF6B /* BSSCISample.app */;
+			productReference = 5BA0B9A214A75A230066DF6B /* CISample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
