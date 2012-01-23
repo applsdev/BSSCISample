@@ -6,7 +6,7 @@
 //  Copyright (c) 2011 Blacksmith Software. All rights reserved.
 //
 
-// just a diff test
+// just a diff test (again)
 #import "BSSViewController.h"
 
 @implementation BSSViewController
