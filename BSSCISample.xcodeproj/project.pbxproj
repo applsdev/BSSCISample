@@ -279,12 +279,11 @@
 		5BA0B9C414A75C050066DF6B /* Ad-Hoc */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Martin Reichart";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BSSCISample/BSSCISample-Prefix.pch";
 				INFOPLIST_FILE = "BSSCISample/BSSCISample-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "66AF41B4-1728-4B3C-8F8A-7F41450D81FD";
 				WRAPPER_EXTENSION = app;
 			};
 			name = "Ad-Hoc";
@@ -310,6 +309,7 @@
 				5BA0B9C414A75C050066DF6B /* Ad-Hoc */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

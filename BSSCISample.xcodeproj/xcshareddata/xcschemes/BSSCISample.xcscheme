@@ -14,7 +14,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5BA0B9A114A75A230066DF6B"
-               BuildableName = "BSSCISample.app"
+               BuildableName = "CISample.app"
                BlueprintName = "CISample"
                ReferencedContainer = "container:BSSCISample.xcodeproj">
             </BuildableReference>
@@ -32,7 +32,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5BA0B9A114A75A230066DF6B"
-            BuildableName = "BSSCISample.app"
+            BuildableName = "CISample.app"
             BlueprintName = "CISample"
             ReferencedContainer = "container:BSSCISample.xcodeproj">
          </BuildableReference>
@@ -50,7 +50,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5BA0B9A114A75A230066DF6B"
-            BuildableName = "BSSCISample.app"
+            BuildableName = "CISample.app"
             BlueprintName = "CISample"
             ReferencedContainer = "container:BSSCISample.xcodeproj">
          </BuildableReference>
@@ -68,7 +68,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5BA0B9A114A75A230066DF6B"
-            BuildableName = "BSSCISample.app"
+            BuildableName = "CISample.app"
             BlueprintName = "CISample"
             ReferencedContainer = "container:BSSCISample.xcodeproj">
          </BuildableReference>
